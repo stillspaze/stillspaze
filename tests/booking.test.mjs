@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {whatsappUrl,localDate} from '../src/booking.mjs';
+test('unconfigured or malformed phone never creates a booking destination',()=>{for(const n of ['', 'replace me','0000000000','123','+91abc'])assert.equal(whatsappUrl(n),null)});
+test('booking encodes name, service and scheduling details safely',()=>{const url=new URL(whatsappUrl('+91 98765 43210',{name:'A & B',service:'Meditation & Energy Balancing',date:'2026-12-12',time:'Morning'}));assert.equal(url.pathname,'/919876543210');assert.match(url.searchParams.get('text'),/Name: A & B/);assert.match(url.searchParams.get('text'),/Meditation & Energy Balancing/);assert.match(url.searchParams.get('text'),/not a confirmed appointment/);assert.match(url.searchParams.get('text'),/2026-12-12/)});
+test('date input minimum is local calendar date',()=>assert.match(localDate(),/^\d{4}-\d{2}-\d{2}$/));

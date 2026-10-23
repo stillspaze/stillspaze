@@ -1,6 +1,6 @@
 # StillSpaze — Lama Fera Healing
 
-A complete React + Vite website with Tailwind CSS, Framer Motion, Lucide icons and React Router. Seven pages, responsive navigation, accessible booking and certificate dialogs, testimonial carousel, FAQs and a Formspree contact form. No backend or database.
+A complete React + Vite website with Tailwind CSS, Framer Motion, Lucide icons and React Router. Six pages, responsive navigation, accessible booking and certificate dialogs, FAQs and a Formspree contact form. No backend or database.
 
 ## Run locally
 
@@ -34,7 +34,7 @@ Create a Formspree form and use its public form ID (the value after `/f/` in its
 
 `certifications` starts empty. Add only verified records such as `{ title, issuer, year, image: '/certificates/file.webp' }` and place the corresponding file in `public/certificates`. Each opens in a keyboard-accessible modal. No fake certificates are included.
 
-`testimonials` starts empty. Add real client-approved records as `{ name, text, approved: true }`. Only approved entries display. Until then, clearly labeled sample quotes appear for design review. Remove sample content or add approved reviews before launch. Workshops are intentionally absent; add a service only if actually offered.
+`testimonials` starts empty. Add real client-approved records as `{ name, text, approved: true }`. Only approved entries display. The testimonials section is currently hidden, including navigation and sitemap entries. Restore it only when approved reviews are ready. Workshops are intentionally absent; add a service only if actually offered.
 
 ## Deployment
 

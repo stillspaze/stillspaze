@@ -1,4 +1,4 @@
-# Stillspace — Lama Fera Healing
+# StillSpaze — Lama Fera Healing
 
 A complete React + Vite website with Tailwind CSS, Framer Motion, Lucide icons and React Router. Seven pages, responsive navigation, accessible booking and certificate dialogs, testimonial carousel, FAQs and a Formspree contact form. No backend or database.
 
@@ -63,3 +63,4 @@ Keyboard navigation, focus-visible indicators, native form constraints, labeled 
 ## Launch checklist
 
 Replace placeholders, verify qualifications, upload a real portrait and approved certificates, review the privacy policy and retention details, configure and test WhatsApp and Formspree, confirm services and pricing, replace the domain, rebuild, and check mobile/keyboard behavior. Spiritual benefits are framed as individual experiences, never promised medical outcomes.
+

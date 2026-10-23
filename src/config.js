@@ -1,6 +1,6 @@
 export const site = {
-  brand: 'StillSpaze', tagline: 'LAMA FERA · SPIRITUAL WELLNESS', name: '[Practitioner name]', logo: '/lotus.svg',
-  whatsapp: import.meta.env.VITE_WHATSAPP_NUMBER || '919911343281', phone: '', email: '', address: '', instagram: '', maps: '',
+  brand: 'StillSpaze', tagline: 'LAMA FERA · SPIRITUAL WELLNESS', name: 'Indu', logo: '/lotus.svg',
+  whatsapp: import.meta.env.VITE_WHATSAPP_NUMBER || '919911343281', phone: '+91 9911343281', email: 'stillspaze@gmail.com', address: 'Sector-3, Vasundhara, Ghaziabad, U.P', instagram: '', maps: '',
   formId: import.meta.env.VITE_FORMSPREE_ID || '', url: import.meta.env.VITE_SITE_URL || 'https://stillspace-lama-fera.cocoa-ocean-9847.chatgpt.site',
   portrait: '', experience: '[Add verified experience]',
   introduction: 'A thoughtful space for your personal journey. My approach begins with listening, respects your boundaries, and makes room for your own experience of stillness.',

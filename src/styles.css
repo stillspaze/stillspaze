@@ -6,3 +6,4 @@
 
 .service-dropdown{border-top:1px solid #e3ded4;border-bottom:1px solid #e3ded4;margin-top:22px}.service-dropdown>summary{display:flex;align-items:center;justify-content:space-between;list-style:none;padding:14px 0;min-height:48px}.service-dropdown>summary::-webkit-details-marker{display:none}.dropdown-chevron{font-size:23px;line-height:1;transition:transform .2s}.service-dropdown[open]>summary .dropdown-chevron{transform:rotate(180deg)}.service-dropdown-content{padding:0 0 8px}.service-dropdown-content>h4:first-child{margin-top:10px}
 .training-list{list-style:none;padding:0;margin:24px 0}.training-list li{display:flex;align-items:flex-start;gap:12px;font-size:13px;line-height:1.7;padding:10px 0;border-bottom:1px solid #e3ded4}.training-list svg{flex-shrink:0;margin-top:3px;color:#947440}
+.image-frame.about-image{padding:0}.image-frame.about-image::after{display:none}
